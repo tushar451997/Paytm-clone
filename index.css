@@ -1,0 +1,684 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+}
+
+body::-webkit-scrollbar {
+    width: 6px;
+  }
+   
+  
+   
+  body::-webkit-scrollbar-thumb {
+    background-color: blue;
+    border-radius: 10px;
+  }
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+    padding: 20px 45px;
+
+}
+nav img{
+    width: 180px;
+}
+nav div{
+    display: flex;
+    gap: 15px;
+}
+
+nav a{
+    text-decoration: none;
+}
+ 
+nav div a p{
+    padding: 10px;
+}
+
+nav a p{
+    /* padding: 10px 10px; */
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+   margin: 0;
+   padding: 0;
+}
+nav a  span{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color:#00baf2;
+    padding: 2px 2px 2px 15px;
+    border-radius: 15px;
+    font-family: 'Roboto', sans-serif;
+
+}
+nav p:hover{
+   background-color: rgb(240, 238, 238);
+}
+nav a  span:hover{
+    
+    background-color: rgb(5, 5, 104);
+   
+}
+nav a span {
+   font-size: 16px;
+    color: white;
+    font-weight: 500;
+}
+nav a span i{
+    width: 32px;
+    height: 32px;
+    font-size: 25px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: rgb(5, 5, 104);
+    color: white;
+    padding-top: 3px;
+}
+nav a  span:hover i{
+    
+    background-color:#00baf2;
+   
+}
+.kyc-section{
+    background-color: rgb(237, 236, 236);
+    font-size: 16px;
+    padding: 10px 0;
+    margin-bottom: 50px;
+}
+.kyc-section p{
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    text-shadow: 0.2px 0.3px 0.3px;
+}
+
+.kyc-section p span{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+    text-shadow: none;
+}
+
+
+.mostlovepaymentapp{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0 70px 0;
+    padding: 0 0 0 50px;
+    
+}
+
+.mostlovepaymentapp div:first-child{
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+ }
+
+.mostlovepaymentapp div:first-child img{
+    width: 80px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 20px;
+ }
+ .mostlovepaymentapp div:first-child h1{
+    margin-top: 30px;
+   font-size: 55px;
+   text-shadow: 0.2px 0.3px 0.3px;
+}
+.mostlovepaymentapp div:first-child p{
+    font-family: 'Noto Sans', sans-serif;
+    /* font-weight: 600; */
+    text-shadow: 0.2px 0.3px 0.3px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.mostlovepaymentapp div:last-child img{
+   width: 530px;
+}
+
+.mostlovepaymentapp div:first-child button{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 250px;
+   background-color: black;
+   padding: 5px 0;
+   border-radius: 20px;
+   gap: 5px;
+   margin-top: 30px;
+ }
+ .mostlovepaymentapp div:first-child button i{
+    color: white;
+     font-size: 20px;
+  }
+  .mostlovepaymentapp div:first-child button p{
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+  }
+
+  .mostlovepaymentapp div:first-child  {
+    color: black;
+   background-color: white;
+  }
+  
+
+  .navfirstdropdown{
+    display: flex;
+  }
+ .paytm-for-consumer-first-section{
+  border: 0.1px solid silver;
+   font-weight: 600;
+   padding: 15px 0px;
+   position: fixed;
+   top: 70px;
+   left: 23%;
+   display: none;
+   font-size: 15px;
+ }
+ .paytm-for-consumer-first-section .inner1 a{
+  width: 215px;
+ }
+ 
+ .first:hover .paytm-for-consumer-first-section
+ {
+  width: 200px;
+   height: 180px;
+   position: absolute;
+   left: 21%;
+  display: grid;
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.secondnav:hover .paytm-for-consumer-first-section
+ {
+  width: 200px;
+   height: 200px;
+   position: absolute;
+   left: 38.5%;
+  display: grid;
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.thirdnav:hover .paytm-for-consumer-first-section
+ {
+  width: 180px;
+   height: 220px;
+  display: grid;
+  position: absolute;
+  left: 70%;
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+ .first a,
+ .secondnav a,
+ .thirdnav a
+ {
+  padding: 0 15px;
+ }
+  .PaytmforConsumer{
+    /* width: 300px; */
+    display: flex;
+    /* gap: 20px; */
+    font-size: 20px;
+    flex-direction: column;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    /* padding: 20px 0px; */
+  }
+  .PaytmforConsumer a{
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+  }
+
+
+.second,.third,.forth,.fifth{
+  display: none;
+  background-color: white;
+}
+ .inner a{
+  display: flex;
+  /* gap: 20px; */
+  width: 100%;
+  justify-content: space-between;
+}
+.paytm-for-consumer-first-section .inner1:hover .forth,
+.paytm-for-consumer-first-section .inner3:hover .fifth{
+  display: grid;
+  position: absolute;
+  padding: 15px 0px;
+  left: 20%;
+  width: 220px;
+  height: 180px;
+  font-size: 15px;
+  border: 0.1px solid silver; 
+  top: -2px;
+  left: 210px;
+}
+.paytm-for-consumer-first-section .inner:hover .second,
+.paytm-for-consumer-first-section .inner:hover .third
+/* .paytm-for-consumer-first-section .inner1:hover .forth, */
+/* .paytm-for-consumer-first-section .inner3:hover .fifth */
+{
+  display: grid;
+  position: absolute;
+  padding: 15px 0px;
+  left: 100%;
+  width: 220px;
+  height: 180px;
+  font-size: 15px;
+  border: 0.1px solid silver;
+
+}
+
+.secondnav .paytm-for-consumer-first-section .inner1:hover .forth,
+.secondnav .paytm-for-consumer-first-section .inner3:hover .fifth,
+.thirdnav .paytm-for-consumer-first-section .inner1:hover .forth,
+.thirdnav .paytm-for-consumer-first-section .inner3:hover .fifth
+{
+  display: grid;
+  position: absolute;
+  padding: 15px 0px;
+  left: 80%;
+  width: 220px;
+  height: 200px;
+  font-size: 15px;
+  border: 0.1px solid silver; 
+  top: -2px;
+  left: 210px;
+}
+.secondnav .paytm-for-consumer-first-section .inner:hover .second,
+.secondnav .paytm-for-consumer-first-section .inner:hover .third
+{
+  display: grid;
+  position: absolute;
+  padding: 15px 0px;
+  left: 100%;
+  width: 220px;
+  height: 200px;
+  font-size: 15px;
+  border: 0.1px solid silver;
+}
+.thirdnav .paytm-for-consumer-first-section .inner:hover .second
+{
+  display: grid;
+  position: absolute;
+  padding: 15px 0px;
+  left: 100%;
+  width: 200px;
+  height: 220px;
+  font-size: 15px;
+  border: 0.1px solid silver;
+}
+
+.second{
+  top: -2px;
+}
+
+/* recharge-bill-container */
+
+.recharge-bill-container,
+.book-buy-container
+{
+  background-color: rgb(51, 186, 240);
+ padding: 0px 20px 30px 30px;
+}
+.book-buy-container{
+  background-color: rgb(25, 25, 150);
+}
+.recharge-bill-container h1,
+.book-buy-container h1
+{
+ color: white;
+ padding: 70px 0px 40px 60px;
+ font-size: 35px;
+}
+.recharge-bill-container .bill-container,
+.book-buy-container .bill-container
+{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+.recharge-bill-container .recharge-option,
+.book-buy-container .recharge-option
+{
+  margin-bottom: 50px;
+  padding: 15px 40px 15px 20px;
+  text-decoration: none;
+  width: 160px;
+}
+.recharge-bill-container .recharge-option img,
+.book-buy-container .recharge-option img
+{
+  width: 70px;
+  margin-bottom: 10px;
+}
+.recharge-bill-container .recharge-option p,i,
+.book-buy-container .recharge-option p,i
+{
+  color: white;
+  font-size: 15px;
+  margin-bottom: 5px;
+  font-family: sans-serif;
+  text-shadow: 0.5px 0.1px 0.1px;
+}
+.recharge-bill-container a .recharge-option  p:nth-child(2),
+.book-buy-container a .recharge-option p:nth-child(2)
+{
+  font-size: 18px;
+}
+.recharge-bill-container .recharge-option p:nth-child(4),
+.book-buy-container .recharge-option p:nth-child(4) {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.recharge-bill-container .recharge-option:hover{
+  background-color: rgb(18, 142, 191);
+  border-radius: 10px;
+}
+.book-buy-container .recharge-option:hover{
+  background-color:rgb(22, 22, 132);
+  border-radius: 10px;
+}
+
+.paytm-payment-instrument{
+  background-color: rgb(248, 247, 257);
+  padding-bottom: 40px;
+}
+.paytm-payment-instrument h1{
+  padding: 100px 0 40px 70px;
+  font-size: 50px;
+}
+.pay-through-wallet{
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+margin: auto;
+background-color: white;
+padding: 80px;
+}
+.pay-through-wallet div:first-child{
+  margin-top: 50px;
+}
+.pay-through-wallet span{
+ display: flex;
+ align-items: center;
+ gap: 10px;
+ font-size: 16px;
+ margin-bottom: 50px;
+}
+.pay-through-wallet h2{
+  
+  font-size: 35px;
+  margin-bottom: 30px;
+ }
+ .pay-through-wallet p{
+  
+  font-size: 20px;
+  margin-bottom: 30px;
+  text-shadow: 0.01px 0.01px 0.01px;
+  color: rgb(0, 0, 0);
+  line-height: 26px;
+ }
+ .pay-through-wallet button{
+  
+  width: 250px;
+  background-color: black;
+  padding: 5px 0;
+  border-radius: 20px;
+  gap: 5px;
+  margin-top: 30px;
+  color: white;
+  font-size: 15px;
+ }
+ #learn-more-btn{
+  background-color: rgb(20, 20, 100);
+width: 150px;
+height: 40px;
+padding: 10px 0px 30px 0;
+ }
+#learn-more-btn span{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+ }
+ .pay-through-wallet button i{
+  font-size: 18px;
+ }
+.pay-through-wallet div:first-child img{
+  width: 80px;
+}
+.pay-through-wallet div:last-child img{
+  width: 550px;
+}
+#postpaid-img{
+  width: 180px;
+}
+
+.hdfc-sbi{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  text-align: left;
+  margin-bottom: 40px;
+}
+.hdfc-sbi h1{
+  margin: 0;
+  padding: 0;
+  font-size: 42px;
+}
+.hdfc-sbi p{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 21px;
+}
+.hdfc-sbi a{
+  background-color: white;
+  padding:100px 50px 0 50px;
+  display: grid;
+  gap: 25px;
+  border-radius: 20px;
+}
+.hdfc-sbi a img:first-child{
+  width: 200px;
+}
+.hdfc-sbi a img:last-child{
+  width: 450px;
+  margin-top: 40px;
+}
+.hdfc-sbi a:first-child img:first-child{
+margin-top: -50px;
+}
+
+
+
+.finicial-services{
+  padding: 120px 120px 50px 100px;
+}
+.finicial-services h1{
+  font-size: 50px;
+}
+.payment-bank{
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+.payment-bank div:first-child img{
+  width: 220px;
+  padding:20px 0 60px 0 ;
+}
+.payment-bank div:first-child h2{
+  font-size: 40px;
+  padding-bottom: 30px;
+}
+.payment-bank div:first-child p{
+  font-size: 20px;
+  padding-bottom: 30px;
+}
+.payment-bank div:last-child img{
+  width: 470px;
+}
+
+ .payment-bank div:first-child button,
+ .paytm-money div button,
+ .services-paytm button
+ {
+ /* border: 10px solid black; */
+ display: flex;
+ gap: 15px;
+ align-items: center;
+  color: white;
+  background-color: rgb(20, 20, 100);
+ padding: 15px 25px;
+ font-size: 20px;
+ border: none;
+ border-radius: 30px;
+}
+.payment-bank div:first-child button i{
+  margin-top: 5px;
+ }
+
+ .paytm-money{
+  display: flex;
+  justify-content: space-around;
+  padding: 80px 20px 120px 40px;
+background-color:rgb(243, 243, 243) ;
+ }
+ .paytm-money img{
+  width: 470px;
+ }
+ 
+ .paytm-money div img{
+  width: 150px;
+  margin-bottom: 50px;
+ }
+ .paytm-money div h1{
+ font-size: 40px;
+ margin-bottom: 30px;
+ }
+ .paytm-money div p{
+  font-size: 20px;
+  margin-bottom: 30px;
+  }
+  .insurance{
+    background-color: white;
+  }
+  .insurance-pay{
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 30px 50px 40px;
+  }
+.personal-loan div{
+   margin-top: 40px;
+}
+.services-container{
+  width: 85%;
+  margin: auto;
+  margin-bottom: 40px;
+}
+.services-container h1:first-child{
+  font-size: 50px;
+  margin:90px 0 30px 0 ;
+}
+ .services-paytm{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(245, 244, 256);
+  padding: 90px 0 90px 90px;
+  border-radius: 10px;
+
+ }
+ .services-paytm img{
+    width: 470px;
+ }
+ .services-paytm h2{
+    font-size: 40px;
+    padding-bottom: 30px; 
+ }
+ .services-paytm p{
+  font-size: 20px;
+  padding-bottom: 30px; 
+}
+
+.business-tool{
+  padding-bottom: 180px;
+}
+
+.business-tool h1:first-child{
+ padding: 60px 0 60px 140px;
+ font-size: 45px;
+}
+.business-tool .billing{
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+
+.business-tool .billing img{
+  width: 240px;
+}
+.business-tool .billing h1{
+  font-size: 25px;
+  margin: 40px 0;
+}
+.business-tool .billing p{
+  font-size: 19px;
+  margin-bottom: 10px;
+}
+.business-tool .billing a{
+  font-weight: 600;
+}
+.ipo{
+  font-family: Inter,sans-serif;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.ipo div{
+  /* background-color: white; */
+  display: grid;
+  gap: 10px;
+}
+
+.ipo div:first-child img {
+  width: 140px;
+}
+.ipo div:first-child a{
+  background-color: white;
+  color: blue;
+  text-align: left;
+}
+
+.ipo  a img {
+  width: 130px;
+}
+.ipo  a {
+  background-color: skyblue;
+  padding: 10px 10px 10px 10px;
+  display: grid;
+  text-align: center;
+}
+.ipo  a p{
+  background-color: skyblue;
+  padding: 10px 10px 10px 10px;
+  display: grid;
+  text-align: center;
+  margin-top: 10px;
+}
+.ipo  a:hover img {
+  width: 150px;
+
+}
