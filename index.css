@@ -658,7 +658,7 @@ background-color:rgb(243, 243, 243) ;
 }
 .ipo div:first-child a{
   background-color: white;
-  color: blue;
+  color: #00baf2;
   text-align: left;
 }
 
@@ -666,13 +666,12 @@ background-color:rgb(243, 243, 243) ;
   width: 130px;
 }
 .ipo  a {
-  background-color: skyblue;
+  background-color: #00baf2;
   padding: 10px 10px 10px 10px;
   display: grid;
   text-align: center;
 }
 .ipo  a p{
-  background-color: skyblue;
   padding: 10px 10px 10px 10px;
   display: grid;
   text-align: center;
@@ -681,4 +680,87 @@ background-color:rgb(243, 243, 243) ;
 .ipo  a:hover img {
   width: 150px;
 
+}
+
+
+.cashback{
+  margin: 100px 0 100px 0;
+  text-align: left;
+ padding: 0;
+ 
+}
+.cashback a{
+  display: grid;
+  justify-content: left;
+  padding: 0;
+  gap: 5px;
+ text-align: left;
+ padding: 20px 30px 20px 20px;
+ border-radius: 10px;
+}
+.cashback a img{
+   width: 70px;
+   margin-bottom: 20px;
+}
+.cashback div a{
+  padding: 0;
+}
+.cashback a:hover img{
+  width: 70px;
+}
+.cashback h2{
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+}
+.cashback a p{
+  font-size: 12px;
+  margin: 0;padding: 0;
+  text-align-last: left;
+  color: white;
+  line-height: 20px;
+}
+
+footer{
+  background-color: rgb(240, 239, 239);
+  padding: 100px 70px 140px 70px;
+}
+footer .download-app{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 50px;
+  font-family: sans-serif;
+}
+footer .download-app  div:first-child{
+  display: flex;
+}
+footer .download-app  div:last-child{
+  display: flex;
+  gap: 30px;
+}
+hr{
+  border: 0.1px solid silver;
+}
+
+details > summary {
+  list-style-type: '+';
+  font-size: 50px;
+}
+
+details[open] > summary {
+  list-style-type: 'X';
+}
+
+details {
+  border: 1px solid gray;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+}
+
+details[open] > summary {
+  margin-bottom: 0.5rem;
+}
+i{
+  color: black;
 }
