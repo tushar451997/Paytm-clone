@@ -745,7 +745,6 @@ hr{
 
 details > summary {
   list-style-type: '+';
-  font-size: 50px;
 }
 
 details[open] > summary {
@@ -763,4 +762,8 @@ details[open] > summary {
 }
 i{
   color: black;
+}
+details summary{
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
 }
